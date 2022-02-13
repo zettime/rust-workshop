@@ -19,4 +19,4 @@ Beim Ausführen der Funktion mit x=1, y=1 und player=1 soll das Feld wie folgt a
 0 | 0 | 0
 ```
 
-Um zu sehen ob die Implementierung korrekt ist, müssen die Funktionen innerhalb der Datei [tic_tac_toe_lib/src/main.rs](tic_tac_toe_lib/src/game/main.rs) aufgerufen werden (siehe Kommentare). Zusätzlich kann dan Programm mit `cargo run` ausgeführt werden.
+Um zu sehen ob die Implementierung korrekt ist, müssen die Funktionen innerhalb der Datei [tic_tac_toe_lib/src/main.rs](tic_tac_toe_lib/src/main.rs) aufgerufen werden (siehe Kommentare). Zusätzlich kann dan Programm mit `cargo run` ausgeführt werden.
