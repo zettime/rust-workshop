@@ -2,7 +2,7 @@
 
 In dieser Übungsaufgabe wird das Konzept References und Borrowing vertieft. Dafür sollen in der Datei [tic_tac_toe_lib/src/game/field.rs](tic_tac_toe_lib/src/game/field.rs) die Funktionen `display_field` und `do_move` implementiert werden.
 
-`display_field` hat als übergabe Parameter ein zwei dimensionales integer array und soll dieses bei der Ausführung in der Konsole ausgeben (println!):
+Die Funktion `display_field` hat als Übergabeparameter ein zweidimensionales Integer Array und soll dieses bei der Ausführung in der Konsole ausgeben (println!):
 
 ``` console
 0 | 0 | 0
@@ -10,8 +10,8 @@ In dieser Übungsaufgabe wird das Konzept References und Borrowing vertieft. Daf
 0 | 0 | 0
 ```
 
-`do_move` besitzt als Übergabeparameter ein zwei dimensionales integer array, eine x und eine y position sowie die player id. Bei der Ausführung soll die entsprechende Kachel auf den Wert der player id gesetzt werden. Zusätzlich besitzt die Funktion keinen Rückgabewert!
-Beim Ausführen der Funktion mit x=1, y=1 und player=1 soll das Feld wie folgt aussehen (Ausgabe mit display_field):
+Die Funktion `do_move` besitzt als Übergabeparameter ein zweidimensionales Integer Array, eine x und eine y Position sowie eine Player Id. Bei der Ausführung soll die entsprechende Kachel auf den Wert der Player Id gesetzt werden. Zusätzlich besitzt die Funktion keinen Rückgabewert!
+Beim Ausführen der Funktion mit x=1, y=1 und player=1 soll das Feld wie folgt aussehen (Ausgabe mit der Funktion `display_field`):
 
 ``` console
 0 | 0 | 0
@@ -19,4 +19,5 @@ Beim Ausführen der Funktion mit x=1, y=1 und player=1 soll das Feld wie folgt a
 0 | 0 | 0
 ```
 
-Um zu sehen ob die Implementierung korrekt ist, müssen die Funktionen innerhalb der Datei [tic_tac_toe_lib/src/main.rs](tic_tac_toe_lib/src/main.rs) aufgerufen werden (siehe Kommentare). Zusätzlich kann dan Programm mit `cargo run` ausgeführt werden.
+Zusätzlich soll innerhalb der Datei [tic_tac_toe_lib/src/main.rs](tic_tac_toe_lib/src/main.rs) der Funktionsablauf implementiert werden (siehe Kommentare).
+Zur Überprüfung kann das Programm mit `cargo run` ausgeführt werden.
