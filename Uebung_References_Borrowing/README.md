@@ -1,6 +1,6 @@
 # Übung References und Borrowing
 
-In dieser Übungsaufgabe wird das Konzept References und Borrowing vertieft. Dafür sollen in der Datei [tic_tac_toe_simple/src/main.rs](tic_tac_toe_simple/src/main.rs) die Funktionen `display_field` und `do_move` implementiert werden.
+In dieser Übungsaufgabe wird das Konzept References und Borrowing vertieft. Dafür sollen in der Datei [tic_tac_toe_lib/src/game/field.rs](tic_tac_toe_lib/src/game/field.rs) die Funktionen `display_field` und `do_move` implementiert werden.
 
 `display_field` hat als übergabe Parameter ein zwei dimensionales integer array und soll dieses bei der Ausführung in der Konsole ausgeben (println!):
 
@@ -18,3 +18,5 @@ Beim Ausführen der Funktion mit x=1, y=1 und player=1 soll das Feld wie folgt a
 0 | 1 | 0
 0 | 0 | 0
 ```
+
+Um zu sehen ob die Implementierung korrekt ist, müssen die Funktionen innerhalb der Datei [tic_tac_toe_lib/src/main.rs](tic_tac_toe_lib/src/game/main.rs) aufgerufen werden (siehe Kommentare). Zusätzlich kann dan Programm mit `cargo run` ausgeführt werden.
