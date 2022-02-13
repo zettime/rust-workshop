@@ -1,9 +1,11 @@
 use std::io::stdin;
 use tic_tac_toe_lib::game::{field, validate, controller};
+use rand::Rng;
+use display_winner as dp;
 
 fn main() {
     let mut field = field::init_field();
-    let mut active_player = 1;
+    let mut active_player = rand::thread_rng().gen_range(1..3);
     // input: idx1,idx2
 
     let mut tile_input = String::new();
@@ -32,7 +34,7 @@ fn main() {
         match controller::do_turn(&mut field, x, y, &mut active_player) {
             Ok(winner) => {
                 if winner {
-                    println!("Winner is player: {}", 3 - active_player);
+                    dp::display_winner(3 - active_player);
                     gameover = true;
                 }
             }
