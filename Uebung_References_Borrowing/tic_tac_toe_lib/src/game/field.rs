@@ -2,23 +2,15 @@ pub fn init_field() -> [[i32; 3]; 3] {
     [[0; 3]; 3]
 }
 
-pub fn display_field(field: [[i32; 3]; 3]) {
-    let mut display = String::new();
-    for y in 0..3 {
-        for x in 0..3 {
-            display.push_str(field[y][x].to_string().as_str());
-            if x <= 1 {
-                display.push_str(" | ");
-            }
-        }
-        display.push_str("\n");
-    }
-    println!("{}", display);
-}
+// TODO:
+// signature: display_field(field)
+// should be immediatly printed to console
+// pub fn display_field...
 
-pub fn do_move(field: &mut [[i32; 3]; 3], x: usize, y: usize, player: i32) {
-    field[y][x] = player;
-}
+// TODO:
+// signature: do_move(field, x, y, player)
+// field should be changed in place 
+// pub fn do_move...
 
 pub fn check_winner(field: [[i32; 3]; 3], player: i32) -> bool {
     for i in 0..3 {
