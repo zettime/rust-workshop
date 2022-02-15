@@ -9,6 +9,7 @@ Weitere hilfreiche Links im Umgang mit Rust finden Sie auf den folgenden Seiten 
 ## Themenüberblick
 
 | Hilfreiches |
+|-------|
 | [Folien](Folien) |
 | [Cheatsheets](Cheat_Sheets) |
 
