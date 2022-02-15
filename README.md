@@ -2,13 +2,17 @@
 
 Hier finden Sie die Folien, Übungsaufgaben und Cheatsheets, die Sie für die Bearbeitung des Workshops benötigen.
 
-Weitere hilfreiche Links im Umgang mit Rust finden Sie auf den folgenden Seiten:
+Weitere hilfreiche Links im Umgang mit Rust finden Sie auf den folgenden Seiten und im Unterordner Cheatsheets:
  - https://github.com/donbright/rust-lang-cheat-sheet
  - https://cheats.rs/
 
 ## Themenüberblick
 
-| Thema |
+| Hilfreiches |
+| [Folien](Folien) |
+| [Cheatsheets](Cheat_Sheets) |
+
+| Übungen |
 |-------|
 | [Advanced Types](Uebung_Advanced_Types) |
 | [Enum und Pattern Matching](Uebung_EnumPatternMatching) |
